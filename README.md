@@ -1,8 +1,9 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zixianh)](https://github.com/zixianh/github-readme-stats)
 
-### Hi there 👋 This is Bryan！✨
+### Hi there 👋 
+This is Bryan！
 
-[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/bryanhe-usc)
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/zixianh)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/zixian-he)
 [![Email](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:zixianh@usc.edu)
 
@@ -13,7 +14,6 @@ Welcome to my GitHub page! I'm Bryan — currently growing as a **Data Scientist
 #### 🌱 Currently Working On:
 - Building ML models and tuning performance
 - Strengthening Spark + distributed data processing skills
-- Documenting projects to make them easy to read and use
 
 #### ⚡ Recently Interested In:
 - Recommendation systems
@@ -30,7 +30,7 @@ Welcome to my GitHub page! I'm Bryan — currently growing as a **Data Scientist
 
 #### :computer: Programming Languages & Tools:
 <p>
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=bryanhe-usc&show_icons=true&hide_border=true" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=zixianh&show_icons=true&hide_border=true" />
 
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/r-project/r-project-ar21.svg"></code>
