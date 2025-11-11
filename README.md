@@ -1,4 +1,6 @@
 ```md
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zixianh)](https://github.com/anuraghazra/github-readme-stats)
+
 ### Hi there 👋 This is Bryan！✨
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/bryanhe-usc)
