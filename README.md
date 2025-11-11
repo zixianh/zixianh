@@ -1,4 +1,3 @@
-```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zixianh)](https://github.com/zixianh/github-readme-stats)
 
 ### Hi there 👋 This is Bryan！✨
