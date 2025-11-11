@@ -27,7 +27,7 @@ Welcome to my GitHub page! I'm Bryan — currently growing as a **Data Scientist
 #### :computer: Programming Languages & Tools:
 <p>
   
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=zixianh&show_icons=true&hide_border=true" />
+![Bryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=zixianh&show_icons=true&theme=nightowl&hide_border=true)
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
 <code><img width="10%" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg"></code>
