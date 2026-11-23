@@ -1,51 +1,123 @@
-### Hi there 👋 
-This is Bryan！
+<div align="center">
 
-[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/zixianh)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/zixian-he)
-[![Email](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:zixianh@usc.edu)
+# Hi, I'm Zixian (Bryan) He 👋
 
-Welcome to my GitHub page! I'm Bryan — currently growing as a **Data Scientist** with experience in data analytics, forecasting, and machine learning. I enjoy solving problems that connect **data → insight → real-world decisions**.
+<a href="https://github.com/zixianh">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=4F7CAC&center=true&vCenter=true&width=640&lines=LLM+Evaluation+%26+Reliability;Causal+Inference+%26+Uncertainty+Quantification;AI+and+the+Online+Information+Ecosystem" alt="Research areas" />
+</a>
 
-#### 🌱 Currently Working On:
-- Building ML models and tuning performance
-- Strengthening Spark + distributed data processing skills
+[![arXiv](https://img.shields.io/badge/arXiv-2606.06781-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06781)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zixian-he)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zixianh@usc.edu)
 
-#### ⚡ Recently Interested In:
-- Recommendation systems
-- Practical NLP applications
-- Time-series forecasting & optimization
-- AI-assisted workflow automation
-
-#### 📚 Learning & Certifications:
-- Data Science methodologies & experimentation
-- Machine Learning system design
-- Cloud & pipeline tooling (ongoing)
+</div>
 
 ---
 
-#### :computer: Programming Languages & Tools:
-<p>
-  
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=zixianh&show_icons=true&theme=nightowl&hide_border=true" />
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg"></code>
+### 🧭 About Me
 
-<br />
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"></code>
-<code><img height="40" style="vertical-align:middle;" src="https://img.shields.io/badge/PyCharm-000000?logo=pycharm&logoColor=white"></code>
+I study **how AI changes the way people use information**, and **how to draw reliable conclusions when model outputs are used as data**. My work combines **causal inference**, **uncertainty quantification**, and **LLM evaluation**, with applications to online knowledge platforms and computational social science.
 
-<br />
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></code>
+My interest comes from industry. As a data analyst, I relied on AI-generated code to clean and restructure data, and saw how it could fill in ambiguous instructions with unstated assumptions, producing results that ran without error yet were quietly wrong. I now study failures like these: **model outputs that look correct but are not.**
+
+<table>
+<tr>
+<td>🎓 <b>M.S. in Applied Data Science</b><br/><sub>University of Southern California</sub></td>
+<td>🎓 <b>B.S. in Mathematics</b><br/><sub>University of Wisconsin–Madison</sub></td>
+</tr>
+</table>
+
+---
+
+### 📰 News
+
+- 🎉 **Nov 2026** — *When Better Codebooks Are Not Enough* accepted to the **EACL 2027 Main Conference**
+
+---
+
+### 📄 Research
+
+#### When Better Codebooks Are Not Enough: Predictive Performance and Rule Adherence in LLM Political Event Coding
+
+![EACL 2027](https://img.shields.io/badge/EACL_2027-Main_Conference-2E7D32?style=flat-square)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06781)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yibo-hu-lab/event-coding-reliability)
+
+**Zixian He**, Bharath Raahul Murugesan, Patrick T. Brandt, Yibo Hu
+
+> **Do LLMs actually follow the expert codebooks they are given?** Richer codebooks raise accuracy on political event coding (macro-F1 **0.457 → 0.633**), yet simply reversing the order of codebook entries changes **21%** of predictions.
+
+<details>
+<summary><b>Methods</b></summary>
+<br/>
+
+Controlled codebook changes (reordering entries, replacing label names with placeholders, reassigning definitions) separate classification accuracy from adherence to the supplied rules. Agreement across codebook orderings is measured with Fleiss' κ, and differences between conditions are assessed with bootstrap confidence intervals, across four open-source LLMs.
+
+</details>
+
+#### How Wikipedia Readership Shifted after ChatGPT
+
+![Under Review](https://img.shields.io/badge/Status-Under_Review-F9A825?style=flat-square)
+
+**Zixian He**, with Xinyu Chen and Ambra Amico
+
+> **How do you estimate the effect of a technology that reaches everyone at once?** Placebo analyses back to 2015 show that much of the apparent post-ChatGPT decline in Wikipedia readership reflects recurring seasonality; the remaining evidence points to a shortfall concentrated in computing articles.
+
+<details>
+<summary><b>Methods</b></summary>
+<br/>
+
+Built a daily pageview panel of 10,000 English Wikipedia articles from raw hourly Wikimedia dumps. Estimated counterfactual readership with nuclear-norm-regularized matrix completion, benchmarked against synthetic control and difference-in-differences through pseudo-treatment validation, with split conformal prediction intervals for the estimated effects.
+
+</details>
+
+---
+
+### 🔬 Research Interests
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**📏 LLM Outputs as Measurements**<br/>
+<sub>Measurement error, validation, and valid inference when model-generated labels replace human annotation</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**📈 Causal Inference & Uncertainty**<br/>
+<sub>Counterfactual estimation when treatment reaches all units at once; prediction intervals under dependence and heavy tails</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🌐 AI & the Information Ecosystem**<br/>
+<sub>When AI supplements or substitutes for sources like Wikipedia, and what that means for knowledge communities</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**🧪 LLM Evaluation & Robustness**<br/>
+<sub>Reliability signals beyond accuracy, such as consistency under meaning-preserving changes</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🛠️ Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,r,pytorch,sklearn,git,latex,mysql,docker,vscode&perline=9" alt="Tools" />
 </p>
 
-#### 🧠 What I'm Focused On:
-- Writing **clean, reproducible analysis**
-- Communicating data clearly to technical & non-technical teams
-- Bridging the gap between **analytics, business, and product**
+---
 
-If you'd like to talk about data, analytics, or interesting side projects — feel free to reach out!
+<div align="center">
+
+<sub>Feel free to reach out about LLM evaluation, causal inference, or AI and online information ✉️</sub>
+
+</div>
